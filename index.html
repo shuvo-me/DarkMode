@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dark Mode</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h4>DARKME</h4>
+
+            <button class="toggle-btn">
+              <span>
+                <i class="bx bx-sun"></i>
+              </span>
+
+              <span>
+                <i class="bx bx-moon"></i>
+              </span>
+              <span class="toggle">
+                <i class="bx bx-sun"></i>
+              </span>
+            </button>
+          </div>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="main">
+      <div class="container">
+        <div class="articles-container"></div>
+      </div>
+    </section>
+
+    <script src="./moment.min.js"></script>
+
+    <script type="module" src="./script.js" defer></script>
+  </body>
+</html>
